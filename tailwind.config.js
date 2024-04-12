@@ -2,7 +2,29 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    screens: {
+      xs: '320px',
+      sm: '768px',
+      md: '1024px',
+      lg: '1440px',
+      xl: '1920px',
+    },
+    extend: {
+      colors: {
+        primary: {
+          50: '#F5F3F0',
+          100: '#EDEBE8',
+          200: '#CDCBCB',
+          300: '#656464',
+          400: '#434040',
+          500: '#232121',
+        },
+      },
+      fontFamily: {
+        title: 'Lexend, Arial, sans-serif',
+        body: 'Manrope, Arial, sans-serif',
+      },
+    },
   },
   plugins: [],
 };
