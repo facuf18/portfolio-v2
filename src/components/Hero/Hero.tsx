@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className='grid grid-cols-12 px-20 my-10 place-items-center'>
+    <section className='grid grid-cols-12 px-20 my-20 place-items-center'>
       <div className='col-span-6 pb-7'>
         <h1 className='font-medium leading-tight uppercase text-8xl font-title text-primary-500'>
           Facundo Faccioli
@@ -16,8 +16,8 @@ export default function Hero() {
         <svg
           xmlns='http://www.w3.org/2000/svg'
           xmlnsXlink='http://www.w3.org/1999/xlink'
-          width='744.04004'
-          height='445.1369'
+          width='774.04004'
+          height='475.1369'
           viewBox='0 0 774.04004 475.1369'
         >
           <path
@@ -199,22 +199,24 @@ export default function Hero() {
         </svg>
       </div>
       <div className='col-span-12 mt-6'>
-        <button className='p-0 transition duration-300 ease-in-out rounded-full hover:bg-primary-200 hover:text-secondary-50 text-primary-500'>
-          <svg
-            xmlns='http://www.w3.org/2000/svg'
-            fill='none'
-            viewBox='0 0 24 24'
-            strokeWidth={1.5}
-            stroke='currentColor'
-            className='h-14 w-14'
-          >
-            <path
-              strokeLinecap='round'
-              strokeLinejoin='round'
-              d='m19.5 8.25-7.5 7.5-7.5-7.5'
-            />
-          </svg>
-        </button>
+        <a href='#about' className='decoration-none'>
+          <button className='p-0 transition duration-300 ease-in-out rounded-full decoration-none hover:bg-primary-200 hover:text-secondary-50 text-primary-500'>
+            <svg
+              xmlns='http://www.w3.org/2000/svg'
+              fill='none'
+              viewBox='0 0 24 24'
+              strokeWidth={1.5}
+              stroke='currentColor'
+              className='h-14 w-14'
+            >
+              <path
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                d='m19.5 8.25-7.5 7.5-7.5-7.5'
+              />
+            </svg>
+          </button>
+        </a>
       </div>
     </section>
   );

@@ -10,10 +10,10 @@ export default function Navbar() {
         Facundo Faccioli
       </p>
       <div className='flex flex-row items-center'>
-        <NavLink>About me</NavLink>
-        <NavLink>Experience</NavLink>
-        <NavLink>Projects</NavLink>
-        <NavLink>Contact</NavLink>
+        <NavLink to='about'>About me</NavLink>
+        <NavLink to='experience'>Experience</NavLink>
+        <NavLink to='skills'>Skills</NavLink>
+        <NavLink to='contact'>Contact</NavLink>
       </div>
     </nav>
   );
