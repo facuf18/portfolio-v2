@@ -19,6 +19,15 @@ export default {
           400: '#434040',
           500: '#232121',
         },
+        secondary: {
+          50: '#F5F3F0',
+          100: '#d8d8f6',
+          200: '#b18fcf',
+          300: '#978897',
+          400: '#494850',
+          500: '#2c2c34',
+          600: '#232121',
+        },
       },
       fontFamily: {
         title: 'Lexend, Arial, sans-serif',
