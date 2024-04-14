@@ -14,7 +14,7 @@ export default function DataDisclosure({
 }) {
   return (
     <div className='w-full'>
-      <div className='w-full max-w-3xl mx-auto'>
+      <div className='w-full max-w-3xl px-2 mx-auto sm:px-0'>
         <Disclosure defaultOpen={false}>
           {({ open }) => (
             <>

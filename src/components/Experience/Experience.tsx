@@ -17,8 +17,8 @@ const experienceData = [
 
 export default function Experience() {
   return (
-    <section id='experience' className='flex flex-col px-20 my-20'>
-      <h4 className='self-start mb-6 text-6xl font-medium leading-tight uppercase font-title text-primary-500'>
+    <section id='experience' className='flex flex-col my-20 sm:px-10 md:px-20'>
+      <h4 className='mb-6 text-4xl font-medium leading-tight text-center uppercase sm:text-start sm:text-6xl font-title text-primary-500'>
         Experience and Projects
       </h4>
       {experienceData &&

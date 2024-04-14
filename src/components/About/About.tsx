@@ -1,10 +1,10 @@
 export default function About() {
   return (
-    <section id='about' className='flex flex-col px-20'>
-      <h4 className='self-end mb-6 text-6xl font-medium leading-tight uppercase font-title text-primary-500'>
+    <section id='about' className='flex flex-col my-20 sm:px-10 md:px-20'>
+      <h4 className='mb-6 text-4xl font-medium leading-tight text-center uppercase sm:text-6xl sm:text-end font-title text-primary-500'>
         About me
       </h4>
-      <div className='grid justify-center grid-cols-2 gap-6 px-32 pt-2'>
+      <div className='justify-center grid-cols-2 gap-6 px-4 pt-2 sm:px-10 md:px-32 sm:grid'>
         <p className='col-span-1 font-light text-justify font-body'>
           I am a web developer with a passion for programming and continuous
           learning. I trained at Henry and Coderhouse, two institutions that

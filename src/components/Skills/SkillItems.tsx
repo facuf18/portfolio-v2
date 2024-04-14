@@ -1,6 +1,6 @@
 export default function SkillItems() {
   return (
-    <div className='flex flex-wrap self-center justify-center w-full max-w-2xl gap-6 pt-2'>
+    <div className='flex flex-wrap self-center justify-center w-full max-w-2xl gap-6 px-2 pt-2 sm:px-0'>
       <span className='flex flex-col items-center gap-1'>
         <svg
           xmlns='http://www.w3.org/2000/svg'

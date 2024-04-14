@@ -1,24 +1,25 @@
 export default function Hero() {
   return (
-    <section className='grid grid-cols-12 px-20 my-20 place-items-center'>
-      <div className='col-span-6 pb-7'>
-        <h1 className='font-medium leading-tight uppercase text-8xl font-title text-primary-500'>
+    <section className='grid grid-cols-12 mt-4 mb-10 sm:mt-20 sm:px-10 md:px-20 sm:mb-20 lg:my-36 place-items-center'>
+      <div className='col-span-12 text-center sm:text-start sm:col-span-6 pb-7'>
+        <h1 className='text-6xl font-medium leading-tight uppercase md:text-8xl font-title text-primary-500'>
           Facundo Faccioli
         </h1>
-        <p className='pl-1.5 text-2xl font-normal uppercase font-title text-primary-500'>
+        <p className='pl-1.5 text-xl md:text-2xl font-normal uppercase font-title text-primary-500'>
           Front-end Developer
         </p>
-        <p className='pl-1.5 pt-6 text-lg font-normal font-body text-primary-300'>
+        <p className='pl-1.5 pt-6 md:text-lg font-normal font-body text-primary-300'>
           Hi there! I'm Facundo, and I want to work with you
         </p>
       </div>
-      <div className='col-span-6'>
+      <div className='col-span-12 sm:col-span-6'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           xmlnsXlink='http://www.w3.org/1999/xlink'
           width='774.04004'
           height='475.1369'
           viewBox='0 0 774.04004 475.1369'
+          className='h-auto max-w-xs sm:max-w-sm md:max-w-full'
         >
           <path
             d='M647.79187,389.5H126.24841c-11.15381,0-20.22852-9.07422-20.22852-20.22852v-62.77148H668.02038v62.77148c0,11.1543-9.07422,20.22852-20.22852,20.22852Z'
@@ -198,7 +199,7 @@ export default function Hero() {
           </g>
         </svg>
       </div>
-      <div className='col-span-12 mt-6'>
+      <div className='col-span-12 mt-12 sm:mt-6'>
         <a href='#about' className='decoration-none'>
           <button className='p-0 transition duration-300 ease-in-out rounded-full decoration-none hover:bg-primary-200 hover:text-secondary-50 text-primary-500'>
             <svg
