@@ -1,6 +1,9 @@
 export default function Hero() {
   return (
-    <section className='grid grid-cols-12 mt-4 mb-10 sm:mt-20 sm:px-10 md:px-20 sm:mb-20 lg:my-36 place-items-center'>
+    <section
+      id='hero'
+      className='grid grid-cols-12 mt-4 mb-10 sm:mt-20 sm:px-10 md:px-20 sm:mb-20 lg:my-36 place-items-center'
+    >
       <div className='col-span-12 text-center sm:text-start sm:col-span-6 pb-7'>
         <h1 className='text-6xl font-medium leading-tight uppercase md:text-8xl font-title text-primary-500'>
           Facundo Faccioli
