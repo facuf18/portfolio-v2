@@ -21,9 +21,9 @@ export default function DataDisclosure({
         <Disclosure defaultOpen={false}>
           {({ open }) => (
             <>
-              <Disclosure.Button className='w-full p-2 text-sm font-medium text-left transition duration-300 ease-in-out border-b rounded-t-md border-primary-400 focus:outline-none hover:cursor-pointer hover:bg-primary-100'>
+              <Disclosure.Button className='w-full p-2 text-sm font-medium text-left transition duration-300 ease-in-out border-b rounded-t-md border-primary-400 dark:border-primary-100 focus:outline-none hover:cursor-pointer hover:bg-primary-100 dark:hover:bg-primary-300'>
                 <span className='flex flex-row items-center justify-between'>
-                  <div className='flex flex-row items-center gap-2'>
+                  <div className='flex flex-row items-center gap-2 dark:text-primary-50'>
                     {!open ? (
                       <svg
                         xmlns='http://www.w3.org/2000/svg'
@@ -56,15 +56,15 @@ export default function DataDisclosure({
                       </svg>
                     )}
                     <div className='flex flex-col items-start px-2'>
-                      <p className='text-lg font-medium uppercase font-body text-primary-500'>
+                      <p className='text-lg font-medium uppercase font-body text-primary-500 dark:text-primary-50'>
                         {t(experienceData.position)}
                       </p>
-                      <p className='text-lg font-light font-body text-primary-500'>
+                      <p className='text-lg font-light font-body text-primary-500 dark:text-primary-50'>
                         {t(experienceData.company)}
                       </p>
                     </div>
                   </div>
-                  <p className='text-lg font-light font-body text-primary-500'>
+                  <p className='text-lg font-light font-body text-primary-500 dark:text-primary-50'>
                     {t(experienceData.time)}
                   </p>
                 </span>
@@ -78,7 +78,7 @@ export default function DataDisclosure({
                 leaveTo='transform scale-95 opacity-0'
               >
                 <Disclosure.Panel className='p-2 '>
-                  <div className='font-light text-justify font-body'>
+                  <div className='font-light text-justify font-body text-primary-500 dark:text-primary-50'>
                     <p>{t(experienceData.body)}</p>
                   </div>
                 </Disclosure.Panel>

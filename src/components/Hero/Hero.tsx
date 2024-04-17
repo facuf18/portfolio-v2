@@ -8,13 +8,13 @@ export default function Hero() {
       className='grid grid-cols-12 mt-4 mb-10 sm:mt-20 sm:px-10 md:px-20 sm:mb-20 lg:my-36 place-items-center'
     >
       <div className='col-span-12 text-center sm:text-start sm:col-span-6 pb-7'>
-        <h1 className='text-6xl font-medium leading-tight uppercase md:text-8xl font-title text-primary-500'>
+        <h1 className='text-6xl font-medium leading-tight uppercase md:text-8xl font-title text-primary-500 dark:text-primary-50'>
           Facundo Faccioli
         </h1>
-        <p className='pl-1.5 text-xl md:text-2xl font-normal uppercase font-title text-primary-500'>
+        <p className='pl-1.5 text-xl md:text-2xl font-normal uppercase font-title text-primary-500 dark:text-primary-50'>
           {t('hero.title')}
         </p>
-        <p className='pl-1.5 pt-6 md:text-lg font-normal font-body text-primary-300'>
+        <p className='pl-1.5 pt-6 md:text-lg font-normal font-body text-primary-300 dark:text-primary-200'>
           {t('hero.subtitle')}...
         </p>
       </div>
@@ -207,7 +207,7 @@ export default function Hero() {
       </div>
       <div className='col-span-12 mt-12 sm:mt-6'>
         <a href='#about' className='decoration-none'>
-          <button className='p-0 transition duration-300 ease-in-out rounded-full decoration-none hover:bg-primary-200 hover:text-secondary-50 text-primary-500'>
+          <button className='p-0 transition duration-300 ease-in-out rounded-full decoration-none hover:bg-primary-200 hover:text-secondary-50 text-primary-500 dark:text-primary-50 dark:hover:bg-primary-300 dark:hover:text-primary-200'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               fill='none'
