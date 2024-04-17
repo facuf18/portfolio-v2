@@ -26,8 +26,18 @@ const resources = {
       },
       experience: {
         title: 'Experience & Projects',
-        nexo: {},
-        cyfan: {},
+        nexo: {
+          position: 'Web Developer',
+          company: 'Nexo Soluciones',
+          time: '2022 - Current',
+          body: '',
+        },
+        cyfan: {
+          position: 'Web Developer',
+          company: 'CYFAN Descartables',
+          time: '2023 - Current',
+          body: '',
+        },
       },
       skills: {
         title: 'Skills & Technologies',
@@ -58,8 +68,18 @@ const resources = {
       },
       experience: {
         title: 'Experiencia y Proyectos',
-        nexo: {},
-        cyfan: {},
+        nexo: {
+          position: 'Desarrollador Web',
+          company: 'Nexo Soluciones',
+          time: '2022 - Actualmente',
+          body: '',
+        },
+        cyfan: {
+          position: 'Desarrollador Web',
+          company: 'CYFAN Descartables',
+          time: '2023 - Actualmente',
+          body: '',
+        },
       },
       skills: {
         title: 'Habilidades y Tecnologías',

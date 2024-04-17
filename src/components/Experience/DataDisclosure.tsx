@@ -1,4 +1,5 @@
 import { Disclosure, Transition } from '@headlessui/react';
+import { useTranslation } from 'react-i18next';
 
 type DataDisclosureProps = {
   position: string;
@@ -12,6 +13,8 @@ export default function DataDisclosure({
 }: {
   experienceData: DataDisclosureProps;
 }) {
+  const { t } = useTranslation();
+
   return (
     <div className='w-full'>
       <div className='w-full max-w-3xl px-2 mx-auto sm:px-0'>
@@ -54,15 +57,15 @@ export default function DataDisclosure({
                     )}
                     <div className='flex flex-col items-start px-2'>
                       <p className='text-lg font-medium uppercase font-body text-primary-500'>
-                        {experienceData.position}
+                        {t(experienceData.position)}
                       </p>
                       <p className='text-lg font-light font-body text-primary-500'>
-                        {experienceData.company}
+                        {t(experienceData.company)}
                       </p>
                     </div>
                   </div>
                   <p className='text-lg font-light font-body text-primary-500'>
-                    {experienceData.time}
+                    {t(experienceData.time)}
                   </p>
                 </span>
               </Disclosure.Button>
@@ -76,7 +79,7 @@ export default function DataDisclosure({
               >
                 <Disclosure.Panel className='p-2 '>
                   <div className='font-light text-justify font-body'>
-                    <p>{experienceData.body}</p>
+                    <p>{t(experienceData.body)}</p>
                   </div>
                 </Disclosure.Panel>
               </Transition>

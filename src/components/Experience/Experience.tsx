@@ -3,16 +3,16 @@ import DataDisclosure from './DataDisclosure';
 
 const experienceData = [
   {
-    position: 'Web Developer',
-    company: 'Nexo Soluciones',
-    time: '2022 - Current',
-    body: 'Developed a multi-tenant web app to use as ATM for theaters purchase process with payment gateway and ticket printing, from beginning to production, using React Js',
+    position: 'experience.nexo.position',
+    company: 'experience.nexo.company',
+    time: 'experience.nexo.time',
+    body: 'experience.nexo.body',
   },
   {
-    position: 'Web Developer',
-    company: 'CYFAN Descartables',
-    time: '2023 - Current',
-    body: 'Work',
+    position: 'experience.cyfan.position',
+    company: 'experience.cyfan.company',
+    time: 'experience.cyfan.time',
+    body: 'experience.cyfan.body',
   },
 ];
 
