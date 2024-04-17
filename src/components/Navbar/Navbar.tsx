@@ -1,6 +1,8 @@
+import { useTranslation } from 'react-i18next';
 import NavLink from './NavLink';
 
 export default function Navbar() {
+  const { t } = useTranslation();
   return (
     <nav
       id='navbar'
@@ -10,10 +12,10 @@ export default function Navbar() {
         Facundo Faccioli
       </p>
       <div className='flex flex-row items-center'>
-        <NavLink to='about'>About me</NavLink>
-        <NavLink to='experience'>Experience</NavLink>
-        <NavLink to='skills'>Skills</NavLink>
-        <NavLink to='contact'>Contact</NavLink>
+        <NavLink to='about'>{t('navbar.about')}</NavLink>
+        <NavLink to='experience'>{t('navbar.experience')}</NavLink>
+        <NavLink to='skills'>{t('navbar.skills')}</NavLink>
+        <NavLink to='contact'>{t('navbar.contact')}</NavLink>
       </div>
     </nav>
   );

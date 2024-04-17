@@ -1,3 +1,5 @@
+import LanguageSelector from './LanguageSelector';
+
 export default function Footer() {
   return (
     <section
@@ -22,6 +24,7 @@ export default function Footer() {
           </svg>
         </button>
       </a>
+      <LanguageSelector />
       <p>Portfolio v2 - Facundo Faccioli, 2024</p>
     </section>
   );

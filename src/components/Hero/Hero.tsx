@@ -1,4 +1,7 @@
+import { useTranslation } from 'react-i18next';
+
 export default function Hero() {
+  const { t } = useTranslation();
   return (
     <section
       id='hero'
@@ -9,10 +12,10 @@ export default function Hero() {
           Facundo Faccioli
         </h1>
         <p className='pl-1.5 text-xl md:text-2xl font-normal uppercase font-title text-primary-500'>
-          Front-end Developer
+          {t('hero.title')}
         </p>
         <p className='pl-1.5 pt-6 md:text-lg font-normal font-body text-primary-300'>
-          Hi there! I'm Facundo, and I want to work with you
+          {t('hero.subtitle')}...
         </p>
       </div>
       <div className='col-span-12 sm:col-span-6'>

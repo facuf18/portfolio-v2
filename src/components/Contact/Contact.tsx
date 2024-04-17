@@ -1,8 +1,11 @@
+import { useTranslation } from 'react-i18next';
+
 export default function Contact() {
+  const { t } = useTranslation();
   return (
     <section id='contact' className='flex flex-col my-20 sm:px-10 md:px-20'>
       <h4 className='mb-6 text-4xl font-medium leading-tight text-center uppercase sm:text-6xl sm:text-start font-title text-primary-500'>
-        Contact me
+        {t('contact.title')}
       </h4>
       <div className='flex flex-wrap items-center self-center justify-center w-full max-w-2xl gap-6 px-2 pt-2 sm:px-0'>
         <span>
