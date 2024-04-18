@@ -11,10 +11,24 @@ export default function Hero() {
         <h1 className='text-6xl font-medium leading-tight uppercase md:text-9xl font-title text-primary-500 dark:text-primary-50 line-clamp-2'>
           Facundo Faccioli
         </h1>
-        <p className='pl-1.5 text-xl md:text-3xl font-medium uppercase font-title text-secondary-200'>
-          {t('hero.title')}
+        <p className='flex flex-row items-center justify-center sm:justify-start gap-1 sm:gap-2 pl-1.5 text-xl md:text-3xl font-medium uppercase font-title text-secondary-200'>
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            fill='none'
+            viewBox='0 0 24 24'
+            strokeWidth={2}
+            stroke='currentColor'
+            className='w-5 h-5 sm:w-7 sm:h-7'
+          >
+            <path
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              d='M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5'
+            />
+          </svg>
+          {t('hero.title')}{' '}
         </p>
-        <p className='pl-1.5 pt-6 md:text-xl font-normal font-body text-primary-300 dark:text-primary-200'>
+        <p className='pl-1.5 pt-6 md:text-xl font-normal self-center sm:self-start font-body text-primary-300 dark:text-primary-200'>
           {t('hero.subtitle')}...
         </p>
       </div>
