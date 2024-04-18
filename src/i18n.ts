@@ -27,7 +27,7 @@ const resources = {
           position: 'Web Developer',
           company: 'Nexo Soluciones',
           time: '2022 - Current',
-          body: '',
+          body: '- I take part, as Front-End Developer, at the Cinexo team where we utilize Scrum as our project management methodology.\n- Develop multi-tenant web applications using React and Next.js\n- Collaborate in the creation and refinement of User Stories\n- Contribute to the development and implementation of a Production Release Protocol\n- Utilize CSS libraries like Tailwindcss and Material UI for development\n- Employ Redux and Zustand in various projects to manage global states while maintaining optimal web application performance\n- Implement payment gateways such as Mercado Pago, Cybersource, and Sitef\n- Perform deployments using Google Cloud Run\n- Collaborate with the Back-end team on the implementation of services consumed by web applications',
         },
         cyfan: {
           position: 'Web Developer',
@@ -69,7 +69,7 @@ const resources = {
           position: 'Desarrollador Web',
           company: 'Nexo Soluciones',
           time: '2022 - Actualmente',
-          body: '',
+          body: '- Formo parte del equipo Cinexo, como desarrollador front-end, en el que utilizamos Scrum como metodología de trabajo.\n- Participo en el desarrollo de aplicaciones web multi-tenant utilizando React y Next.js.\n- Colaboro en la creación y refinamiento de Historias de Usuario.\n- Participo en el desarrollo e implementación de un Protocolo para Salida a Producción.\n- Para el desarrollo utilizo librerías de CSS como Tailwindcss y Material UI.\n- Utilizo Redux y Zustand en distintos proyectos para gestionar estados globales manteniendo el óptimo funcionamiento de la aplicación web.\n- Implemento pasarelas de pago como Mercado Pago, Cybersource y Sitef.\n- Realizo despliegues utilizando Google Cloud Run.\n- Colaboro con el equipo de Back-end en la implementación de servicios que se consumen en las aplicaciones web',
         },
         cyfan: {
           position: 'Desarrollador Web',
