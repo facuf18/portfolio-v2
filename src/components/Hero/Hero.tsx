@@ -8,13 +8,13 @@ export default function Hero() {
       className='grid grid-cols-12 mt-4 mb-10 sm:mt-20 sm:px-10 md:px-20 sm:mb-20 lg:my-36 place-items-center'
     >
       <div className='col-span-12 text-center sm:text-start sm:col-span-6 pb-7'>
-        <h1 className='text-6xl font-medium leading-tight uppercase md:text-8xl font-title text-primary-500 dark:text-primary-50'>
+        <h1 className='text-6xl font-medium leading-tight uppercase md:text-9xl font-title text-primary-500 dark:text-primary-50 line-clamp-2'>
           Facundo Faccioli
         </h1>
-        <p className='pl-1.5 text-xl md:text-2xl font-normal uppercase font-title text-primary-500 dark:text-primary-50'>
+        <p className='pl-1.5 text-xl md:text-3xl font-medium uppercase font-title text-secondary-200'>
           {t('hero.title')}
         </p>
-        <p className='pl-1.5 pt-6 md:text-lg font-normal font-body text-primary-300 dark:text-primary-200'>
+        <p className='pl-1.5 pt-6 md:text-xl font-normal font-body text-primary-300 dark:text-primary-200'>
           {t('hero.subtitle')}...
         </p>
       </div>

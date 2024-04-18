@@ -30,7 +30,7 @@ export default {
         },
       },
       fontFamily: {
-        title: 'Lexend, Arial, sans-serif',
+        title: 'Cabin, Arial, sans-serif',
         body: 'Manrope, Arial, sans-serif',
       },
     },
