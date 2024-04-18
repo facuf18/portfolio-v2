@@ -40,7 +40,7 @@ const resources = {
         title: 'Skills & Technologies',
       },
       contact: {
-        title: 'Contact me',
+        title: "Let's work together",
       },
     },
   },

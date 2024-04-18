@@ -206,7 +206,7 @@ export default function Hero() {
         </svg>
       </div>
       <div className='col-span-12 mt-12 sm:mt-6'>
-        <a href='#about' className='decoration-none'>
+        <a href='#skills' className='decoration-none'>
           <button className='p-0 transition duration-300 ease-in-out rounded-full decoration-none hover:bg-primary-200 hover:text-secondary-50 text-primary-500 dark:text-primary-50 dark:hover:bg-primary-300 dark:hover:text-primary-200'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
