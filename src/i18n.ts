@@ -13,6 +13,7 @@ const resources = {
       hero: {
         title: 'Web Developer',
         subtitle: "Hi there! I'm Facundo, and I'm looking for new challenges",
+        resume_button: 'Get my resume',
       },
       about: {
         title: 'About me',
@@ -27,13 +28,47 @@ const resources = {
           position: 'Web Developer',
           company: 'Nexo Soluciones',
           time: '2022 - Current',
-          body: '- I take part, as Front-End Developer, at the Cinexo team where we utilize Scrum as our project management methodology.\n- Develop multi-tenant web applications using React and Next.js\n- Collaborate in the creation and refinement of User Stories\n- Contribute to the development and implementation of a Production Release Protocol\n- Utilize CSS libraries like Tailwindcss and Material UI for development\n- Employ Redux and Zustand in various projects to manage global states while maintaining optimal web application performance\n- Implement payment gateways such as Mercado Pago, Cybersource, and Sitef\n- Perform deployments using Google Cloud Run\n- Collaborate with the Back-end team on the implementation of services consumed by web applications',
+          body: `Work Methodology: Scrum
+
+Technologies: React, Next.js, Tailwindcss, Material UI, Redux, Zustand, Google Cloud Run
+
+Responsibilities:
+- Development of multi-tenant web applications
+- Creation and refinement of User Stories
+- Development of a Production Release Protocol
+- Implementation of payment gateways (Mercado Pago - Cybersource - Sitef)
+- Deployments to Google Cloud Run
+- Collaboration with the Back-end team
+
+Achievements:
+- Contributed to the development of scalable and high-performance web applications
+- Implemented efficient workflow management processes
+- Integrated industry-leading payment gateways
+- Effectively collaborated with multidisciplinary teams`,
         },
         cyfan: {
           position: 'Freelance Web Developer',
           company: 'CYFAN Descartables',
           time: '2023 - Current',
-          body: '- Developed a web application for customer management, receipt creation, and printing.\n- Applied UX/UI knowledge to create a user-friendly and functional interface.\n- Technologies used: Next.ts, Next-Auth, MongoDB/Mongoose, Tailwindcss, and DaisyUI.\n- Deployment on Vercel.\n- Ongoing maintenance to ensure the proper functioning of the application.\n- Integration of improvements according to client requirements.',
+          body: `Project: Customer Management Web Application
+
+Technologies: Next.ts, Next-Auth, MongoDB/Mongoose, Tailwindcss, DaisyUI, UX, UI, Vercel
+
+Responsibilities:
+- Designed and developed a comprehensive web application for customer management
+- Created a simple and intuitive user interface (UX)
+- Implemented a functional and visually appealing graphical user interface (UI)
+- Integrated functionalities for creating and printing receipts
+- Utilized modern technologies such as Next.ts, Next-Auth, MongoDB/Mongoose, Tailwindcss, and DaisyUI
+- Deployed the application on Vercel for reliable and scalable hosting
+- Provided ongoing maintenance of the application to ensure its proper functioning
+- Integrated improvements and new functionalities according to client requirements
+
+Achievements:
+- Successfully developed a robust and scalable web application for customer management
+- Implemented a user interface that facilitates the use of the application
+- Integrated comprehensive functionalities for customer management, receipt creation, and printing
+- Delivered the project to the client on time and to their satisfaction`,
         },
       },
       skills: {
@@ -55,6 +90,7 @@ const resources = {
       hero: {
         title: 'Desarrollador Web',
         subtitle: 'Hola! Soy Facundo y estoy buscando nuevos desafíos',
+        resume_button: 'Descarga mi CV',
       },
       about: {
         title: 'Sobre mí',
@@ -69,13 +105,47 @@ const resources = {
           position: 'Desarrollador Web',
           company: 'Nexo Soluciones',
           time: '2022 - Actualmente',
-          body: '- Formo parte del equipo Cinexo, como desarrollador front-end, en el que utilizamos Scrum como metodología de trabajo.\n- Participo en el desarrollo de aplicaciones web multi-tenant utilizando React y Next.js.\n- Colaboro en la creación y refinamiento de Historias de Usuario.\n- Participo en el desarrollo e implementación de un Protocolo para Salida a Producción.\n- Para el desarrollo utilizo librerías de CSS como Tailwindcss y Material UI.\n- Utilizo Redux y Zustand en distintos proyectos para gestionar estados globales manteniendo el óptimo funcionamiento de la aplicación web.\n- Implemento pasarelas de pago como Mercado Pago, Cybersource y Sitef.\n- Realizo despliegues utilizando Google Cloud Run.\n- Colaboro con el equipo de Back-end en la implementación de servicios que se consumen en las aplicaciones web',
+          body: `Metodología de trabajo: Scrum
+
+Tecnologías: React, Next.js, Tailwindcss, Material UI, Redux, Zustand, Google Cloud Run
+
+Responsabilidades:
+- Desarrollo de aplicaciones web multi-tenant
+- Creación y refinamiento de Historias de Usuario
+- Desarrollo de Protocolo para Salida a Producción
+- Implementación de pasarelas de pago (Mercado Pago - Cybersource - Sitef)
+- Despliegues en Google Cloud Run
+- Colaboración con el equipo de Back-end
+
+Logros:
+- Contribución al desarrollo de aplicaciones web escalables y de alto rendimiento
+- Implementación de procesos eficientes para la gestión del flujo de trabajo
+- Integración de pasarelas de pago líderes en la industria
+- Colaboración efectiva con equipos multidisciplinarios`,
         },
         cyfan: {
           position: 'Desarrollador Web Freelance',
           company: 'CYFAN Descartables',
           time: '2023 - Actualmente',
-          body: '- Desarrollé una aplicación web para gestión de clientes, creación e impresión de recibos.\n- Apliqué conocimientos de UX/UI para generar una interfaz sencilla y funcional.\n- Tecnologías utilizadas: Next.ts, Next-Auth, MongoDB/Mongoose, Tailwindcss y DaisyUI.\n- Despliegue en Vercel.\n- Mantenimiento constante del correcto funcionamiento de la aplicación.\n- Integración de mejoras de acuerdo a los requerimientos del cliente.',
+          body: `Proyecto: Aplicación web para gestión de clientes
+
+Tecnologías: Next.ts, Next-Auth, MongoDB/Mongoose, Tailwindcss, DaisyUI, UX, UI, Vercel
+
+Responsabilidades:
+- Diseño y desarrollo de una aplicación web completa para la gestión de clientes
+- Creación de una interfaz de usuario (UX) sencilla e intuitiva
+- Implementación de una interfaz gráfica de usuario (UI) funcional y atractiva
+- Integración de funcionalidades para la creación e impresión de recibos
+- Utilización de tecnologías modernas como Next.ts, Next-Auth, MongoDB/Mongoose, Tailwindcss y DaisyUI
+- Despliegue de la aplicación en Vercel para un alojamiento confiable y escalable
+- Mantenimiento continuo de la aplicación para garantizar su correcto funcionamiento
+- Integración de mejoras y nuevas funcionalidades de acuerdo a los requerimientos del cliente
+
+Logros:
+- Desarrollo exitoso de una aplicación web robusta y escalable para la gestión de clientes
+- Implementación de una interfaz de usuario que facilita el uso de la aplicación
+- Integración de funcionalidades completas para la gestión de clientes, creación e impresión de recibos
+- Entrega puntual y satisfactoria del proyecto al cliente`,
         },
       },
       skills: {

@@ -1,7 +1,18 @@
 import { useTranslation } from 'react-i18next';
+import CVen from '../../resumes/CVen.pdf';
+import CVes from '../../resumes/CVes.pdf';
+import { useEffect, useState } from 'react';
 
 export default function Hero() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const [downloadCV, setDownloadCV] = useState(CVen);
+
+  useEffect(() => {
+    console.log(i18n.language);
+    if (i18n.language === 'en') setDownloadCV(CVen);
+    else setDownloadCV(CVes);
+  }, [i18n.language]);
+
   return (
     <section
       id='hero'
@@ -31,6 +42,27 @@ export default function Hero() {
         <p className='pl-1.5 pt-6 md:text-xl font-normal self-center sm:self-start font-body text-primary-300 dark:text-primary-200'>
           {t('hero.subtitle')}...
         </p>
+        <a
+          href={downloadCV}
+          target='_blank'
+          className='flex flex-row items-center gap-2 p-2 mx-auto mt-6 text-xl uppercase transition duration-300 ease-in-out border rounded w-fit sm:mx-0 font-body decoration-none border-secondary-200 hover:bg-secondary-200 hover:text-secondary-50 text-primary-500 dark:text-primary-50 dark:hover:bg-primary-300 dark:hover:text-primary-200'
+        >
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            fill='none'
+            viewBox='0 0 24 24'
+            strokeWidth={1.5}
+            stroke='currentColor'
+            className='w-5 h-5'
+          >
+            <path
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              d='M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3'
+            />
+          </svg>
+          {t('hero.resume_button')}
+        </a>
       </div>
       <div className='col-span-12 sm:col-span-6'>
         <svg
