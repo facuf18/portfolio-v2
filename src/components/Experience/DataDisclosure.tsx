@@ -23,8 +23,8 @@ export default function DataDisclosure({
             <>
               <Disclosure.Button
                 className={`${
-                  open && 'bg-primary-100 dark:bg-primary-300'
-                } w-full p-2 text-sm font-medium text-left transition duration-300 ease-in-out border-b rounded-t-md border-primary-400 dark:border-primary-100 focus:outline-none hover:cursor-pointer hover:bg-primary-100 dark:hover:bg-primary-300`}
+                  open && 'bg-primary-200 dark:bg-primary-300'
+                } w-full p-2 text-sm font-medium text-left transition duration-300 ease-in-out border-b rounded-t-md border-primary-400 dark:border-primary-100 focus:outline-none hover:cursor-pointer hover:bg-primary-200 dark:hover:bg-primary-300`}
               >
                 <span className='flex flex-row items-center justify-between'>
                   <div className='flex flex-row items-center gap-2 dark:text-primary-50'>
@@ -81,7 +81,7 @@ export default function DataDisclosure({
                 leaveFrom='transform scale-100 opacity-100'
                 leaveTo='transform scale-95 opacity-0'
               >
-                <Disclosure.Panel className='p-2 rounded-b-md bg-primary-100 dark:bg-primary-300'>
+                <Disclosure.Panel className='p-2 rounded-b-md bg-primary-200 dark:bg-primary-300'>
                   <div className='font-light text-justify whitespace-break-spaces font-body text-primary-500 dark:text-primary-50'>
                     <p>{t(experienceData.body)}</p>
                   </div>

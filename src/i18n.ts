@@ -12,7 +12,7 @@ const resources = {
       },
       hero: {
         title: 'Front-end Developer',
-        subtitle: "Hi there! I'm Facundo, and I want to work with you",
+        subtitle: "Hi there! I'm Facundo, and I'm looking for new challenges",
       },
       about: {
         title: 'About me',
@@ -54,7 +54,7 @@ const resources = {
       },
       hero: {
         title: 'Desarrollador Front-end',
-        subtitle: 'Hola! Soy Facundo y me gustaría trabajar contigo',
+        subtitle: 'Hola! Soy Facundo y estoy buscando de nuevos desafíos',
       },
       about: {
         title: 'Sobre mí',
