@@ -1,7 +1,7 @@
 export default function SkillItems() {
   return (
     <div className='flex flex-wrap self-center justify-center w-full max-w-2xl gap-6 px-2 pt-2 sm:px-0'>
-      <span className='flex flex-col items-center gap-1'>
+      <span className='flex flex-col items-center gap-1 transition-all duration-300 ease-in-out cursor-pointer hover:scale-125'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='80px'
@@ -20,7 +20,7 @@ export default function SkillItems() {
           Javascript
         </p>
       </span>
-      <span className='flex flex-col items-center gap-1'>
+      <span className='flex flex-col items-center gap-1 transition-all duration-300 ease-in-out cursor-pointer hover:scale-125'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='80'
@@ -42,7 +42,7 @@ export default function SkillItems() {
           Typescript
         </p>
       </span>
-      <span className='flex flex-col items-center gap-1'>
+      <span className='flex flex-col items-center gap-1 transition-all duration-300 ease-in-out cursor-pointer hover:scale-125'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='80'
@@ -59,7 +59,7 @@ export default function SkillItems() {
           React Js/Ts
         </p>
       </span>
-      <span className='flex flex-col items-center gap-1'>
+      <span className='flex flex-col items-center gap-1 transition-all duration-300 ease-in-out cursor-pointer hover:scale-125'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='80'
@@ -73,7 +73,7 @@ export default function SkillItems() {
           Next Js
         </p>
       </span>
-      <span className='flex flex-col items-center gap-1'>
+      <span className='flex flex-col items-center gap-1 transition-all duration-300 ease-in-out cursor-pointer hover:scale-125'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='80'
@@ -98,7 +98,7 @@ export default function SkillItems() {
           HTML
         </p>
       </span>
-      <span className='flex flex-col items-center gap-1'>
+      <span className='flex flex-col items-center gap-1 transition-all duration-300 ease-in-out cursor-pointer hover:scale-125'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='80'
@@ -138,7 +138,7 @@ export default function SkillItems() {
           CSS
         </p>
       </span>
-      <span className='flex flex-col items-center gap-1'>
+      <span className='flex flex-col items-center gap-1 transition-all duration-300 ease-in-out cursor-pointer hover:scale-125'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='80'
@@ -160,7 +160,7 @@ export default function SkillItems() {
           Mongo DB
         </p>
       </span>
-      <span className='flex flex-col items-center gap-1'>
+      <span className='flex flex-col items-center gap-1 transition-all duration-300 ease-in-out cursor-pointer hover:scale-125'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='80'
@@ -188,15 +188,15 @@ export default function SkillItems() {
             d='M5.802 24.601L5.879 24.523 6.158 24.41 16.418 14.188 16.548 13.834 13.989 8.956 5.802 24.601z'
           ></path>
           <path
-            className='fill-primary-100'
+            className='fill-primary-200'
             d='M16.912 29.756l9.288-5.179-2.654-16.331a.635.635 0 00-1.075-.346L5.8 24.6l9.233 5.155a1.927 1.927 0 001.878 0'
           ></path>
           <path
-            className='fill-primary-100'
+            className='fill-primary-200'
             d='M26.115 24.534L23.483 8.326a.557.557 0 00-.967-.353L5.9 24.569l9.131 5.1a1.912 1.912 0 001.863 0z'
           ></path>
           <path
-            className='fill-primary-100'
+            className='fill-primary-200'
             d='M16.912 29.6a1.927 1.927 0 01-1.878 0l-9.158-5.078-.076.078 9.233 5.155a1.927 1.927 0 001.878 0l9.289-5.178-.023-.14z'
           ></path>
         </svg>
@@ -204,7 +204,7 @@ export default function SkillItems() {
           Firebase
         </p>
       </span>
-      <span className='flex flex-col items-center gap-1'>
+      <span className='flex flex-col items-center gap-1 transition-all duration-300 ease-in-out cursor-pointer hover:scale-125'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='80'
@@ -233,7 +233,7 @@ export default function SkillItems() {
           Google Cloud
         </p>
       </span>
-      <span className='flex flex-col items-center gap-1'>
+      <span className='flex flex-col items-center gap-1 transition-all duration-300 ease-in-out cursor-pointer hover:scale-125'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='80'
@@ -254,7 +254,7 @@ export default function SkillItems() {
           Git
         </p>
       </span>
-      <span className='flex flex-col items-center gap-1'>
+      <span className='flex flex-col items-center gap-1 transition-all duration-300 ease-in-out cursor-pointer hover:scale-125'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='80'
@@ -268,7 +268,7 @@ export default function SkillItems() {
           Scrum
         </p>
       </span>
-      <span className='flex flex-col items-center gap-1'>
+      <span className='flex flex-col items-center gap-1 transition-all duration-300 ease-in-out cursor-pointer hover:scale-125'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='80'

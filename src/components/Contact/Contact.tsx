@@ -8,7 +8,11 @@ export default function Contact() {
         {t('contact.title')}
       </h4>
       <div className='flex flex-wrap items-center self-center justify-center w-full max-w-2xl gap-6 px-2 pt-2 sm:px-0'>
-        <a target='_blank' href='https://wa.link/jyziel'>
+        <a
+          target='_blank'
+          href='https://wa.link/jyziel'
+          className='transition-all duration-300 ease-in-out cursor-pointer hover:scale-125'
+        >
           <span>
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -26,7 +30,11 @@ export default function Contact() {
             </svg>
           </span>
         </a>
-        <a href='https://www.linkedin.com/in/facundofaccioli/' target='_blank'>
+        <a
+          href='https://www.linkedin.com/in/facundofaccioli/'
+          target='_blank'
+          className='transition-all duration-300 ease-in-out cursor-pointer hover:scale-125'
+        >
           <span>
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -42,7 +50,11 @@ export default function Contact() {
             </svg>
           </span>
         </a>
-        <a href='mailto:facufaccioli18@gmail.com' target='_blank'>
+        <a
+          href='mailto:facufaccioli18@gmail.com'
+          target='_blank'
+          className='transition-all duration-300 ease-in-out cursor-pointer hover:scale-125'
+        >
           <span>
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -82,7 +94,11 @@ export default function Contact() {
             </svg>
           </span>
         </a>
-        <a href='https://github.com/facuf18' target='_blank'>
+        <a
+          href='https://github.com/facuf18'
+          target='_blank'
+          className='transition-all duration-300 ease-in-out cursor-pointer hover:scale-125'
+        >
           <span>
             <svg
               xmlns='http://www.w3.org/2000/svg'

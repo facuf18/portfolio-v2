@@ -11,7 +11,7 @@ const resources = {
         contact: 'Contact',
       },
       hero: {
-        title: 'Web Developer',
+        title: 'Front-End Developer',
         subtitle: "Hi there! I'm Facundo, and I'm looking for new challenges",
         resume_button: 'Get my resume',
       },
@@ -88,7 +88,7 @@ Achievements:
         contact: 'Contacto',
       },
       hero: {
-        title: 'Desarrollador Web',
+        title: 'Desarrollador Front-End',
         subtitle: 'Hola! Soy Facundo y estoy buscando nuevos desafíos',
         resume_button: 'Descarga mi CV',
       },
